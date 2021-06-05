@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Styling select Level  */
+.level{
+    min-width: 80px;
+    /* min-height: 0px; */
+    position: absolute;
+    top: 50%;
+    left:90%;
+    transform: translate(-100%,-50%);
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+}
+
+#lev{
+    margin: 0px 20px;
+    padding: 0px 2px;
+    border-radius: 2px;
+    background-color: #f9fcfb;
+}
+.body{
+    background-color: aliceblue; 
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 54px;
+    color: #2c061f;
+    position: absolute;
+    padding: 20px;
+    font-weight: 700;
+}
+.heading span{
+    color: #f9b208;
+}
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#board{
+    /* background: linear-gradient(rgb(57, 80, 57), rgb(236, 236, 167)); */
+    background-color: #272343;
+    width: 70vmin;
+    height: 70vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.head{
+    background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
+    border: 2px solid rgba(0, 0,0,0.8); 
+    transform: scale(1.15);
+    border-radius: 12px;
+}
+
+.snake{
+    background-color: #fff;
+    border: 1px solid rgba(0, 0,0,0.5);
+    border-radius: 6px;
+}
+
+.food{
+    /* background: linear-gradient(red, purple); */
+    border: .25vmin solid black;
+    background-color: #ffc93c;
+    border-radius: 8px;
+}
+footer{
+    min-height: 80px;
+    background-color: #d1d9d9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer p{
+    font-size: 24px;
+    color: #f9fcfb;
+    font-weight: 800;
+}
+footer p span{
+    color: #2b2e4a;
+    font-weight: 700;
+}
+.fa{
+    font-size: 24px;
+    padding: 2px;
+    margin: 0px 4px;
+    color: #2b2e4a;
+}
+
+
+

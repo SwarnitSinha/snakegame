@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- linking fontAwesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Linking style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Snake-Samrat</title>
+</head>
+
+<body>
+    <!-- Before Game -->
+    <div class="heading">Snake-<span>Game</span></div>
+   
+    <div class="level">
+        <p>Difficulty</p>
+        <select name="level" id="lev">
+            <option value="easy">Easy</option>
+            <option value="medium" selected>Medium</option>
+            <option value="hard">Hard</option>
+            <option value="insane">Insane</option>
+        </select>
+    </div>
+    <div class="body">
+
+        <div id="scoreBox">Score: 0</div>
+        <div id="hiscoreBox">HiScore: 0</div>
+        <div id="board"></div>
+    </div>
+    <footer>
+        <p>Build by <span>Swarnit Sinha</span></p>
+        <div>
+            <a href="https://www.linkedin.com/in/swarnit-sinha-114b44198/" target="blank"><i class="fa fa-linkedin socialLinks" aria-hidden="true"></i></a>
+            <a href="https://github.com/SwarnitSinha" target="blank"><i class="fa fa-github socialLinks" aria-hidden="true"></i></a>
+            
+          </div>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+
+</html>
